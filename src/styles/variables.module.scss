@@ -1,0 +1,5 @@
+// SCSS 全局变量在 TypeScript 不生效的，需要创建一个以 .module.scss 结尾的文件,如此可在ts中使用样式变量
+// 导出 variables.scss 文件的变量
+:export {
+  bgColor: $bg-color;
+}
